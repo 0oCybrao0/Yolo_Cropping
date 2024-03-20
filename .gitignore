@@ -1,3 +1,5 @@
+.vscode
+DS_Store
 data/*
 env
 people2.mp4

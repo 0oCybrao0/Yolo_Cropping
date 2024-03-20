@@ -10,6 +10,8 @@ cap = cv2.VideoCapture("people.mp4")
 
 results = model.track(source="people.mp4", show=True, conf=0.3, save=True, tracker="bytetrack.yaml", classes=0)
 
+if(not os.path.exists("data")):
+    os.makedirs("data")
 path = 'data/{id}/'
 i = 0
 

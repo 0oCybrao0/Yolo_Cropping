@@ -4,3 +4,4 @@ env
 data/*
 runs
 yolov8m*.pt
+people2.mp4
